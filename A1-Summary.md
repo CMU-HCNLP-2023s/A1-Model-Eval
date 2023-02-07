@@ -24,7 +24,7 @@ Write about the task you picked so your fellow students can understand what NLP 
 
 ## Test Summary:
 
-Write the top-3 most useful/interesting tests you wrote in your assignment. All these information should be available in the CheckList `visual_summary`.
+Write the top-3 most useful/interesting tests you wrote in your assignment. All these information should be available in the CheckList `visual_summary_table`.
 
 ### Test 1: [Test name]
 

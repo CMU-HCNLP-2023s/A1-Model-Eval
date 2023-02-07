@@ -26,7 +26,7 @@ In this assignment, you will **evaluate existing Huggingface models with CheckLi
    # Install Transformers from huggingface
    pip install transformers
    # also install datasets so you can use their data
-   pip install data
+   pip install datasets
    # Install Pytorch - the underlying deep learning infrustructure
    pip install torch
 
@@ -36,8 +36,11 @@ In this assignment, you will **evaluate existing Huggingface models with CheckLi
 
    # Finally, CheckList
    pip install checklist
+   # use the right ipywidgets version
+   pip install ipywidgets==7.5
 
    # These two lines help you use CheckList in Jupyter Notebook. You should still run them if you did `pip install -r requirements.txt`.
+
    jupyter nbextension install --py --sys-prefix checklist.viewer
    jupyter nbextension enable --py --sys-prefix checklist.viewer
 
@@ -50,15 +53,15 @@ In this assignment, you will **evaluate existing Huggingface models with CheckLi
    ```sh
    # Make sure you are in the right environment
    conda activate eval_env
-   # clone this git repo.
-   git clone $GIT_REPO_URL
+   # Assuming you have cloned this git repo:
+   # git clone $GIT_REPO_URL
    # Make sure you are in the right folder
    cd $PATH_TO_YOUR_LOCAL_REPO
    # start the jupyter notebook
    jupyter notebook
    ```
 
-4. **Start to complete the task in the notebook.** Visit `` so you can see your notebook. Follow its steps. Some tips:
+4. **Start to complete the task in the notebook.** Visit `http://localhost:8888/notebooks/A1-Notebook.ipynb` so you can see your notebook. Follow its steps. Some tips:
 
    - Read the HuggingFace tutorial: [Quicktour](https://github.com/huggingface/notebooks/blob/main/transformers_doc/en/quicktour.ipynb) to get familiar with model and dataset loading.
    - Read the CheckList [readme and tutotirals](https://github.com/marcotcr/checklist) to understand how to use the package.
@@ -73,19 +76,20 @@ In this assignment, you will **evaluate existing Huggingface models with CheckLi
 1. Make sure you have finished all of the steps, and have got the `.pkl` file that summarizes your evaluation results.
 2. Rename rename `A1-Summary.md` to `A1-Summary-[AndrewID].md` (e.g. `A1-Summary-janedoe.pkl`)
 3. Similarly, rename `A1-Suite.pkl` to `A1-Suite-[AndrewID].pkl` (e.g. `A1-Suite-janedoe.pkl`)
-4. Go back to Convas, and submit both `A1-Summary-[AndrewID].md` and `A1-Test-Suite-[AndrewID].pkl`.
+4. Create a zip file: `A1-[AndrewID].zip`, that contains both `A1-Summary-[AndrewID].md` and `A1-Test-Suite-[AndrewID].pkl`.
+5. Go back to Canvas, and submit `A1-[AndrewID].zip`.
 
 ## Grading:
 
 If you find the assignment difficult, there are some ways to earn partial credits, as shown below.
 
-The base grade will be up to 80, based on how you attempted the task:
+The base grade will be up to 80, based on how you attempt the task:
 
 - **0 point** if no submission.
 - **40 points if you attemped the assignment without coding**. In this case, you will fill in the summary in Fill in [A1-Summary-No-Coding.md](./A1-Summary-No-Coding.md) by writing text descriptions of ten tests you'd want to run, rename the file to `A1-Summary-No-Coding-[andrewID].md`, and submit.
 - **60 points if you wrote tests for existing tasks** -- i.e., if you submit _modified_ test suites for a task that's already covered in the CheckList repo. However, **if you submit the exact test suite downloaded from CheckList, then it will be considered plagiarism.**
-- **70 points if you wrote less than 10 tests for a novel NLP task.** (i.e., tasks that's not already included in the CheckList repo).
-- **80 points if you wrote no less than 10 tests for a novel NLP task.** (i.e., tasks that's not already included in the CheckList repo).
+- **70 points if you wrote less than 10 tests for a novel NLP task** (tasks that's not already included in the CheckList repo).
+- **80 points if you wrote no less than 10 tests for a novel NLP task** (tasks that's not already included in the CheckList repo).
 
 **The remaining 20 point will be based on peer review results:** (this is similar to CheckList's original user study):
 
