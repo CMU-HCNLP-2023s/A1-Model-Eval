@@ -1,5 +1,11 @@
 TRY A1.ipynb
 
+student_info.csv
+submissions.zip
+submissions/
+email_text.txt
+client_secrets.json
+token.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

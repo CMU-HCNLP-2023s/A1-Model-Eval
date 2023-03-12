@@ -1,0 +1,18 @@
+*GENERAL INSTRUCTION*: 
+
+Now you are grading your peers' assignments. It is an opportunity for you to learn from your peers and to improve your own work, so please take it seriously :) 
+
+Some basic information:
+1. You will grade three students. This means filling in three of these forms.
+2. *Your grading determines your peer's grade*. Three students will rate this assignment on some pre-set Likert Scale, and  your score depends on the relative ranking of averaged your test score usefulness. you will get {20, 15, 10, 5} scores if your averaged score is ranked top {25%, 50%, 75%, 100%} percent respectively.
+
+2. You are also graded based on your peer-grading quality. You will get full grades for peer gradings unless:
+    a. You do not complete them or submit them late.
+    b. Your score deviates from other people’s rating drastically without justified reasoning (e.g. everyone gave 5 but you gave 1 because you wanted higher ranking...)
+
+Some general guidance:
+
+1. Double-blind grading: As a grader, you will not know who made this submission, and the author will not know who the grader is. This is to ensure that the grading is done objectively, and no bias is involved.
+2. Follow the rubric: The Likert scale questions have a self-contained description that explain each score. Please use the rubric to guide your grading.
+3. Provide constructive feedback: In addition to grading the paper, please also answer the free-form question to submit constructive feedback and help the student improve.
+4. Be fair and respectful: Please grade your peers with the same care and diligence that you would expect them to grade your work!
