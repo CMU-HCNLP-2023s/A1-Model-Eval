@@ -6,6 +6,14 @@ submissions/
 email_text.txt
 client_secrets.json
 token.json
+student_grades.csv
+sample_response.json
+milestone_present.csv
+final_present.csv
+final_text.txt
+grade_text.txt
+grader_info.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
